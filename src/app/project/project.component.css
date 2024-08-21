@@ -1,0 +1,41 @@
+.portfolio{
+    background-color: rgb(35, 42, 54);
+    width: 100%;
+    height: 960px;
+    
+} 
+
+.pro{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr ;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+   
+}
+
+.o{
+    width: 30cap;
+    height: auto;
+    
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+ .h1{
+    color: rgba(255, 238, 0, 0.932);
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: none;
+    padding-top: 60px;
+}
+
+
+.card{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
